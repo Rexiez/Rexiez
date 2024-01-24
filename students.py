@@ -2,7 +2,7 @@ from pymongo.mongo_client import MongoClient
 from flask import Flask, jsonify, request
 from flask_basicauth import BasicAuth
 
-uri = "mongodb+srv://viewer:viewer@students.ox3zcvf.mongodb.net/?retryWrites=true&w=majority"
+uri = "mongodb+srv://viewer:viewer@students.doopckz.mongodb.net/?retryWrites=true&w=majority"
 
 client = MongoClient(uri)
 db = client["students"]
